@@ -29,7 +29,7 @@ int main()
             sf::sleep(sf::seconds(1));
             window.close();
         }
-        window.clear(sf::Color(120, 165 , 210));
+        window.clear(sf::Color(250, 165 , 210));
 
         //отрисовываем поле
         draw_field(window, snake);

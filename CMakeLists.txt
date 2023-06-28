@@ -9,6 +9,7 @@ set(SFML_STATIC_LIBRARIES TRUE)
 find_package(SFML 2.5 REQUIRED graphics network audio window system)
 
 add_executable(zlaya_zmeyka main.cpp Sourse.cpp)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/external/SFML)
 target_link_libraries(zlaya_zmeyka PUBLIC sfml-graphics sfml-system sfml-window)
 
 

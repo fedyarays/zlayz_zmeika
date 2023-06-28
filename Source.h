@@ -27,7 +27,7 @@ const int field_height = field_size_y * cell_size;
 struct snake {
 
 ///длина змеи
-    int snake_len = 4;
+    int snake_len = 10;
 ///двумерный массив, в котором хранятся координаты
     int field[field_size_y][field_size_x];
 ///стартовая позиция змейки
